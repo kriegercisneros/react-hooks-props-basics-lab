@@ -13,5 +13,5 @@ function About({ bio, links }) {
     </div>
   );
 }
-
+//for a friend
 export default About;

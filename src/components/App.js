@@ -14,8 +14,8 @@ function App() {
       <NavBar />
       <Home {...user} />
       {/* <Home name={user.name} city={user.city}/> */}
-      {/* <About {...user} /> */}
-      <About bio={user.bio} links={user.links} />
+      <About {...user} />
+      {/* <About bio={user.bio} links={user.links} /> */}
       {/* <About bio={user.bio ? user.bio : null}  /> */}
     </>
   );
